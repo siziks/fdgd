@@ -1,0 +1,141 @@
+@media screen and (max-width: 425px) {
+
+	/* Добавим стили анимации снежинки */
+.snowflake {
+    font-size: 1px; /* Начальный размер снежинки */
+    color: #ffffff; /* Цвет снежинки (белый) */
+    animation: snowfall 3s linear infinite;
+}
+
+@keyframes snowfall {
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(100vh) scale(10); /* Измените на нужный конечный размер */
+    }
+}
+
+/* Ваш остальной код остается без изменений */
+.wrapper {
+    width: 100%;
+    height: 2160px;
+    margin: 0 auto;
+    background: #B22222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+/* Остальные стили остаются неизменными */
+/* ... */
+
+    .wrapper{
+		width: 100%;
+		height: 2160px;
+		margin: 0 auto;
+		background: #B22222;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		font-size: 16px;
+	}
+
+	.header{
+		width: 100%;
+		height: 100px;
+		background: #F00;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.snowman, .christmas_tree{
+		width: 10%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+	}
+    .snow, .tree{
+        height: 80%;
+    }
+
+
+	.header_h1{
+		width: 50%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.h1_header{
+		color: white;
+		font-size: 1.3rem;
+	}
+
+	.main{
+		width: 100%;
+		height: 1900px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+	}
+	
+	.div-left, .div-right{
+		background: #F00;
+		width: 100%;
+		height: 13%;
+		display: flex;
+        flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		color: white;
+	}
+
+	.div-right{
+        flex-direction: column-reverse;
+	}
+
+	h2{
+		font-size: 1.2rem;
+	}
+
+	.main-right_text, .main-left_text{
+		font-size: 0.7rem;
+	}
+
+	.div-right_img{
+		width: 23%;
+		height: 43%;
+	}
+
+	.div_main-text{
+		width: 80%;
+		height: 38%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		text-align: center;
+	}
+
+
+	.footer{
+		width: 100%;
+		height: 100px;
+		background: #F00;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		font-size: 1rem;
+		text-align: center;
+	}
+
+	
+}
